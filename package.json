@@ -1,0 +1,29 @@
+{
+  "name": "lotr-bootstrap",
+  "version": "1.0.0",
+  "description": "Een training met Bootstrap met een pagina van LOTR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtgio/Bootstrap.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "demo",
+    "LOTR"
+  ],
+  "author": "Giovanni Martelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gtgio/Bootstrap/issues"
+  },
+  "homepage": "https://github.com/gtgio/Bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "jquery-match-height": "^0.7.2"
+  }
+}
