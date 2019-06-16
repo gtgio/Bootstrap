@@ -341,6 +341,8 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 1.5rem;
+  color: #bdbdbd;
+  text-shadow: 2px 2px 2px black;
 }
 
 h5, .h5 {
@@ -378,6 +380,7 @@ h6, .h6 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
+      text-shadow: 2px 2px #058400;
 }
 
 hr {
@@ -1492,13 +1495,14 @@ mark,
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: white;
   text-align: left;
   list-style: none;
   background-color: #EAEAEA;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
+  text-shadow: 2px 2px 2px #bdbdbd;
 }
 
 .dropdown-menu-left {
@@ -1658,7 +1662,7 @@ mark,
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #82b972;
 }
 .dropdown-item.active, .dropdown-item:active {
   color: #EAEAEA;
@@ -1697,6 +1701,7 @@ mark,
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+
 }
 .navbar > .container,
 .navbar > .container-fluid {
@@ -1714,9 +1719,13 @@ mark,
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  color: #bdbdbd;
+  text-shadow: 2px 2px 2px black;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
+  color: black;
+  text-shadow: 2px 2px 2px #bdbdbd;
 }
 
 .navbar-nav {
@@ -1725,6 +1734,7 @@ mark,
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  text-shadow: 2px 2px 2px black;
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -2050,12 +2060,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #EAEAEA;
-  background-color: #333333;
+  background-color: #005413;
   border-color: #333333;
 }
 .btn-primary:hover {
   color: #EAEAEA;
-  background-color: #202020;
+  background-color: #7fbd8d;
   border-color: #1a1a1a;
 }
 .btn-primary:focus, .btn-primary.focus {
@@ -2752,7 +2762,7 @@ a.close.disabled {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #EAEAEA;
+  background-color: #dedede;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -5354,7 +5364,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 .bg-primary {
-  background-color: #333333 !important;
+  background-color: #005413 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
